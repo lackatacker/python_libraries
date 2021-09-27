@@ -10,3 +10,5 @@ parser.add_argument('--second', '-s', type=int, default=0)
 args = parser.parse_args()
 
 print('hey mr ' + args.user + ' the sum of the provided numbers is : '+f'{(args.first+args.second)}')
+#for example parser.py -u salah -f 2 -s 3 will give us an output of:
+#hey mr salah the sum of the provided numbers is : 5
